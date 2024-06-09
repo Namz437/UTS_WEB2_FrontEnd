@@ -1,0 +1,156 @@
+body {
+    background: url('https://i.pinimg.com/564x/ab/ea/98/abea98c46045b3bc36b2b65d8db86508.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #1b1b1b;
+    color: #c5c5c5;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #64646495;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid #2014fe; /* Blue border around the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: poppins;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #3a6f8f; /* Blue color for the header text */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2014fe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2014fe;
+}
+
+button.login-btn {
+    margin-top: 15px;
+    padding: 10px 20px; /* Adjusted padding */
+    background-color: #2014fe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Full width */
+    max-width: 200px; /* Max width */
+    margin-left: auto; /* Center the button */
+    margin-right: auto;
+}
+
+button.login-btn:hover {
+    background-color: #3a6f8f;
+}
+
+button.register-btn {
+    margin-top: 15px;
+    padding: 10px 20px; /* Adjusted padding */
+    background-color: #2014fe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Full width */
+    max-width: 200px; /* Max width */
+    margin-left: auto; /* Center the button */
+    margin-right: auto;
+}
+
+button.register-btn:hover {
+    background-color: #3a6f8f;
+}
+
+/* Style untuk label dan input */
+.container label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.container input[type="email"],
+.container input[type="password"] {
+    width: calc(100% - 130px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.product-card {
+    border: 4px solid #2014fe;
+    padding: 10px;
+    margin-top: 5px;
+    width: calc(25% - 20px); /* Adjust the width as needed */
+    background-color: #3e3e3e; /* Solid background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual separation */
+}
+
+.product-card img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.keranjang-btn {
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+}
+
